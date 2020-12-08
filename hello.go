@@ -2,10 +2,10 @@ package main
 
 import (
 	"fmt"
+
+	"rsc.io/quote"
 )
 
-const s = "string-const-example"
-
 func main() {
-	fmt.Println(s, "string const example")
+	fmt.Println(quote.Hello())
 }
